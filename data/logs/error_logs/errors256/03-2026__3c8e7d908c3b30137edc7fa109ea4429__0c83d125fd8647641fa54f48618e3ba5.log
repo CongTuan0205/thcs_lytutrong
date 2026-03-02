@@ -1,0 +1,6 @@
+TIME: Mon, 02 Mar 2026 11:15:09 +0700
+IP: ::1
+INFO: User Error(256): Your request is blocked
+FILE: /vendor/vinades/nukeviet/Core/Request.php
+LINE: 507
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
