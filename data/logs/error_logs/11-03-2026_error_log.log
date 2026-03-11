@@ -5,3 +5,9 @@ Stack trace:
 #2 C:\xampp\htdocs\thcs_lytutrong\admin\index.php(182): require('C:\\xampp\\htdocs...')
 #3 {main}
   thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 545]
+[Wed, 11 Mar 2026 11:52:19 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[HY000]: General error: 126 Index for table '.\thcs_lytutrong_db\nv4_en_modthemes.MYI' is corrupt; try to repair it in C:\xampp\htdocs\thcs_lytutrong\vendor\vinades\nukeviet\Core\Database.php:696
+Stack trace:
+#0 C:\xampp\htdocs\thcs_lytutrong\vendor\vinades\nukeviet\Core\Database.php(696): PDOStatement->execute(NULL)
+#1 C:\xampp\htdocs\thcs_lytutrong\index.php(293): NukeViet\Core\NukeVietPDOStatement->execute()
+#2 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 696]
