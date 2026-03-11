@@ -1,0 +1,7 @@
+[Wed, 11 Mar 2026 11:02:21 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[HY000]: General error: 126 Index for table '.\thcs_lytutrong_db\nv4_en_modthemes.MYI' is corrupt; try to repair it in C:\xampp\htdocs\thcs_lytutrong\vendor\vinades\nukeviet\Core\Database.php:545
+Stack trace:
+#0 C:\xampp\htdocs\thcs_lytutrong\vendor\vinades\nukeviet\Core\Database.php(545): PDO->query('SELECT DISTINCT...', NULL)
+#1 C:\xampp\htdocs\thcs_lytutrong\admin\themes\main.php(41): NukeViet\Core\Database->query('SELECT DISTINCT...')
+#2 C:\xampp\htdocs\thcs_lytutrong\admin\index.php(182): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 545]
